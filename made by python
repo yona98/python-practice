@@ -1,4 +1,4 @@
-for random import randint
+from random import randint
 
 #create a list of play option
 t = ["Rock, "Paper", "Scissors"]
