@@ -1,7 +1,7 @@
 from random import randint
 
 #create a list of play option
-t = ["Rock, "Paper", "Scissors"]
+t = ["Rock", "Paper", "Scissors"]
 
 #assign a random play to the computer
 computer = t[randint(0,2)]
