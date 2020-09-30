@@ -1,0 +1,29 @@
+import random
+Korea = ["Bibimbap", "Jjigae", "Samgyeopsal"]
+Japan = ["Susi", "Udong", "Pork cutlets"]
+Chinese = ["Maratang", "Jjajangmyeon", "Tantsuyuck"]
+Western = ["Hamburger", "Pizza", "Pasta"]
+
+hope = False
+
+while hope == False:
+  theme = input("what to eat today? You can choose Korea, Japan, Chinese, Western\n")
+  if theme == "Korea":
+    print(random.choice(Korea))
+  elif theme == "Japan":
+    print(random.choice(Japan))
+  elif theme == "Chinese":
+    print(random.choice(Chinese))
+  else: 
+    print(random.choice(Western))
+  break
+
+want = input("Do you want to keep going? Please answer by 'yes' or 'no'.\n")
+
+if want == "yes":
+  hope = False
+else:
+  print("Enjoy your meal!")
+
+# <Please read it!>
+# When I run this code, i input "yes" but it don't return the while loop ;ㅅ; I don't know what's wrong...I'll be happy if you let me know :)
